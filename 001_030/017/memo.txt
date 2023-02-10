@@ -1,0 +1,59 @@
+one         3
+two         3
+three       5
+four        4
+five        4
+six         3
+seven       5
+eight       5
+nine        4   one ~ nine : 3 + 3 + 5 + 4 + 4 + 3 + 5 + 5 + 4 = 36
+ten         3       
+eleven      6  
+twelve      6
+thirteen    8
+fourteen    8
+fifteen     7
+sixteen     7
+seventeen   9
+eighteen    8
+nineteen    8   10 ~ 19 : 3 6 6 8 8 7 7 9 8 8 = 70
+twenty      6
+twenty one~nine  6 * 9 + 36 = 54 + 36 = 90
+thirty      6
+thirty one ~ nine 90
+forty       5
+forty one ~ nine 45 + 36 = 81
+fifty       5
+fifty one ~ nine 45 + 36 = 81
+sixty       5
+sixty one ~ nine    81
+seventy     7
+seventy one ~ nine 63 + 36 = 99
+eighty      6
+eighty one ~ nine 90
+ninety      6
+ninety one ~ nine 90
+
+1 ~ 99 : 36 + 70 + 6 + 90 + 6 + 90 + 5 + 81 + 5 + 81 + 5 + 81 + 7 + 99 + 6 + 90 + 6 + 90 = 854
+
+one hundred    3 + 7 = 10
+one huddred and (one ~ nienty nine) 13 * 99 + 854 = 2141
+two hundread    10
+2XX             2141
+three hundread  12
+3XX             15 * 99 + 854 = 2339
+four hundred    11
+4XX             14 * 99 + 854 = 2240
+five hundread   11
+5XX             2240
+six hundred     10
+6XX             2141
+seven hundred   12
+7XX             2339
+eight hundred   12
+8XX             2339
+nine hundred    11
+9XX             2240
+one thousand    11
+
+1 ~ 1000 : 854 + 10 + 2141 + 10 + 2141 + 12 + 2339 + 11 + 2240 + 11 + 2240 + 10 + 2141 + 12 + 2339 + 12 + 2339 + 11 + 2240 + 11

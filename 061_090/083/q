@@ -1,0 +1,103 @@
+pre-while
+while
+current : 0_0, next : 1_1, cost[current] : 0, cost_to(next) : 96 < cost[next] : 9223372036854775807
+current : 0_0 -> update 1_1 to 96
+while
+current : 1_1, next : 0_0, cost[current] : 96, cost_to(next) : 131 < cost[next] : 0
+current : 1_1, next : 0_2, cost[current] : 96, cost_to(next) : 234 < cost[next] : 9223372036854775807
+current : 1_1 -> update 0_2 to 330
+current : 1_1, next : 2_0, cost[current] : 96, cost_to(next) : 630 < cost[next] : 9223372036854775807
+current : 1_1 -> update 2_0 to 726
+current : 1_1, next : 2_2, cost[current] : 96, cost_to(next) : 746 < cost[next] : 9223372036854775807
+current : 1_1 -> update 2_2 to 842
+while
+current : 0_2, next : 1_1, cost[current] : 330, cost_to(next) : 96 < cost[next] : 96
+current : 0_2, next : 1_3, cost[current] : 330, cost_to(next) : 965 < cost[next] : 9223372036854775807
+current : 0_2 -> update 1_3 to 1295
+while
+current : 2_0, next : 1_1, cost[current] : 726, cost_to(next) : 96 < cost[next] : 96
+current : 2_0, next : 3_1, cost[current] : 726, cost_to(next) : 699 < cost[next] : 9223372036854775807
+current : 2_0 -> update 3_1 to 1425
+while
+current : 2_2, next : 1_1, cost[current] : 842, cost_to(next) : 96 < cost[next] : 96
+current : 2_2, next : 1_3, cost[current] : 842, cost_to(next) : 965 < cost[next] : 1295
+current : 2_2, next : 3_1, cost[current] : 842, cost_to(next) : 699 < cost[next] : 1425
+current : 2_2, next : 3_3, cost[current] : 842, cost_to(next) : 121 < cost[next] : 9223372036854775807
+current : 2_2 -> update 3_3 to 963
+while
+current : 3_3, next : 2_2, cost[current] : 963, cost_to(next) : 746 < cost[next] : 842
+current : 3_3, next : 2_4, cost[current] : 963, cost_to(next) : 111 < cost[next] : 9223372036854775807
+current : 3_3 -> update 2_4 to 1074
+current : 3_3, next : 4_2, cost[current] : 963, cost_to(next) : 524 < cost[next] : 9223372036854775807
+current : 3_3 -> update 4_2 to 1487
+current : 3_3, next : 4_4, cost[current] : 963, cost_to(next) : 331 < cost[next] : 9223372036854775807
+current : 3_3 -> update 4_4 to 1294
+while
+current : 2_4, next : 1_3, cost[current] : 1074, cost_to(next) : 965 < cost[next] : 1295
+current : 2_4, next : 3_3, cost[current] : 1074, cost_to(next) : 121 < cost[next] : 963
+while
+current : 4_4, next : 3_3, cost[current] : 1294, cost_to(next) : 121 < cost[next] : 963
+while
+current : 1_3, next : 0_2, cost[current] : 1295, cost_to(next) : 234 < cost[next] : 330
+current : 1_3, next : 0_4, cost[current] : 1295, cost_to(next) : 18 < cost[next] : 9223372036854775807
+current : 1_3 -> update 0_4 to 1313
+current : 1_3, next : 2_2, cost[current] : 1295, cost_to(next) : 746 < cost[next] : 842
+current : 1_3, next : 2_4, cost[current] : 1295, cost_to(next) : 111 < cost[next] : 1074
+while
+current : 0_4, next : 1_3, cost[current] : 1313, cost_to(next) : 965 < cost[next] : 1295
+while
+current : 3_1, next : 2_0, cost[current] : 1425, cost_to(next) : 630 < cost[next] : 726
+current : 3_1, next : 2_2, cost[current] : 1425, cost_to(next) : 746 < cost[next] : 842
+current : 3_1, next : 4_0, cost[current] : 1425, cost_to(next) : 805 < cost[next] : 9223372036854775807
+current : 3_1 -> update 4_0 to 2230
+current : 3_1, next : 4_2, cost[current] : 1425, cost_to(next) : 524 < cost[next] : 1487
+while
+current : 4_2, next : 3_1, cost[current] : 1487, cost_to(next) : 699 < cost[next] : 1425
+current : 4_2, next : 3_3, cost[current] : 1487, cost_to(next) : 121 < cost[next] : 963
+while
+current : 4_0, next : 3_1, cost[current] : 2230, cost_to(next) : 699 < cost[next] : 1425
+while
+current : 4_3, next : 3_2, cost[current] : 9223372036854775807, cost_to(next) : 497 < cost[next] : 9223372036854775807
+current : 4_3, next : 3_4, cost[current] : 9223372036854775807, cost_to(next) : 956 < cost[next] : 9223372036854775807
+while
+current : 4_1, next : 3_0, cost[current] : 9223372036854775807, cost_to(next) : 537 < cost[next] : 9223372036854775807
+current : 4_1, next : 3_2, cost[current] : 9223372036854775807, cost_to(next) : 497 < cost[next] : 9223372036854775807
+while
+current : 3_4, next : 2_3, cost[current] : 9223372036854775807, cost_to(next) : 422 < cost[next] : 9223372036854775807
+current : 3_4, next : 4_3, cost[current] : 9223372036854775807, cost_to(next) : 37 < cost[next] : 9223372036854775807
+while
+current : 3_2, next : 2_1, cost[current] : 9223372036854775807, cost_to(next) : 803 < cost[next] : 9223372036854775807
+current : 3_2, next : 2_3, cost[current] : 9223372036854775807, cost_to(next) : 422 < cost[next] : 9223372036854775807
+current : 3_2, next : 4_1, cost[current] : 9223372036854775807, cost_to(next) : 732 < cost[next] : 9223372036854775807
+current : 3_2, next : 4_3, cost[current] : 9223372036854775807, cost_to(next) : 37 < cost[next] : 9223372036854775807
+while
+current : 3_0, next : 2_1, cost[current] : 9223372036854775807, cost_to(next) : 803 < cost[next] : 9223372036854775807
+current : 3_0, next : 4_1, cost[current] : 9223372036854775807, cost_to(next) : 732 < cost[next] : 9223372036854775807
+while
+current : 2_3, next : 1_2, cost[current] : 9223372036854775807, cost_to(next) : 342 < cost[next] : 9223372036854775807
+current : 2_3, next : 1_4, cost[current] : 9223372036854775807, cost_to(next) : 150 < cost[next] : 9223372036854775807
+current : 2_3, next : 3_2, cost[current] : 9223372036854775807, cost_to(next) : 497 < cost[next] : 9223372036854775807
+current : 2_3, next : 3_4, cost[current] : 9223372036854775807, cost_to(next) : 956 < cost[next] : 9223372036854775807
+while
+current : 2_1, next : 1_0, cost[current] : 9223372036854775807, cost_to(next) : 201 < cost[next] : 9223372036854775807
+current : 2_1, next : 1_2, cost[current] : 9223372036854775807, cost_to(next) : 342 < cost[next] : 9223372036854775807
+current : 2_1, next : 3_0, cost[current] : 9223372036854775807, cost_to(next) : 537 < cost[next] : 9223372036854775807
+current : 2_1, next : 3_2, cost[current] : 9223372036854775807, cost_to(next) : 497 < cost[next] : 9223372036854775807
+while
+current : 1_4, next : 0_3, cost[current] : 9223372036854775807, cost_to(next) : 103 < cost[next] : 9223372036854775807
+current : 1_4, next : 2_3, cost[current] : 9223372036854775807, cost_to(next) : 422 < cost[next] : 9223372036854775807
+while
+current : 1_2, next : 0_1, cost[current] : 9223372036854775807, cost_to(next) : 673 < cost[next] : 9223372036854775807
+current : 1_2, next : 0_3, cost[current] : 9223372036854775807, cost_to(next) : 103 < cost[next] : 9223372036854775807
+current : 1_2, next : 2_1, cost[current] : 9223372036854775807, cost_to(next) : 803 < cost[next] : 9223372036854775807
+current : 1_2, next : 2_3, cost[current] : 9223372036854775807, cost_to(next) : 422 < cost[next] : 9223372036854775807
+while
+current : 1_0, next : 0_1, cost[current] : 9223372036854775807, cost_to(next) : 673 < cost[next] : 9223372036854775807
+current : 1_0, next : 2_1, cost[current] : 9223372036854775807, cost_to(next) : 803 < cost[next] : 9223372036854775807
+while
+current : 0_3, next : 1_2, cost[current] : 9223372036854775807, cost_to(next) : 342 < cost[next] : 9223372036854775807
+current : 0_3, next : 1_4, cost[current] : 9223372036854775807, cost_to(next) : 150 < cost[next] : 9223372036854775807
+while
+current : 0_1, next : 1_0, cost[current] : 9223372036854775807, cost_to(next) : 201 < cost[next] : 9223372036854775807
+current : 0_1, next : 1_2, cost[current] : 9223372036854775807, cost_to(next) : 342 < cost[next] : 9223372036854775807
+1425

@@ -1,0 +1,29 @@
+By replacing the 1st digit of the 2-digit number *3, it turns out that six of the nine possible values: 13, 23, 43, 53, 73, and 83, are all prime.
+
+By replacing the 3rd and 4th digits of 56**3 with the same digit, this 5-digit number is the first example having seven primes among the ten generated numbers, yielding the family: 56003, 56113, 56333, 56443, 56663, 56773, and 56993. Consequently 56003, being the first member of this family, is the smallest prime with this property.
+
+Find the smallest prime which, by replacing part of the number (not necessarily adjacent digits) with the same digit, is part of an eight prime value family.
+
+Note.
+
+a. 만약 1의 자리가 빈칸이라고 한다면, 2, 4, 6, 8, 0 5개가 매칭 되는 경우 소수가 아니게 된다. 즉 1의 자리는 빈칸일 수 없다.
+
+b. 만약 빈 칸의 개수를 m이라고 한다면 빈 칸의 수의 합은 m, 2m, 3m, 4m, 5m, 6m, 7m, 8m, 9m, 0 이 된다. 
+i. m = 3k
+3k, 6k, 9k, 12k, 15k, ...
+m = 3k + 1
+3k + 1, 3k + 2, 3k + 3, 3k + 4 = 3(k + 1)1, ...
+m = 3k + 2
+마찬가지...
+
+즉 뒤에 두 가지는 1/3 정도의 확률로 숫자를 3의 배수로 만든다. 즉 소수가 아니다.
+
+c. 결국 1의 자리는 빈칸이 아니며, 빈 칸의 수는 3, 6, 9, ...로 증가해야 한다. 적어도 1000부터 테스트 해 보자. 단 최상위 자리가 빈칸인 경우는 0이 될 수 없다. 아. 그리고 남은 숫자도 3의 배수이면 안된다.
+
+자리수4 : ***d
+자리수 5 : ***dd, **d*d, *d**d, d***d
+...
+
+
+
+1111 1221 1331 1441 1551 1661 1771 1881 1991 

@@ -1,0 +1,15 @@
+A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.
+
+완전수는 자신의 진약수의 합과 자신의 값이 같은 수를 말한다. 예를 들어 28의 진약수 1, 2, 4, 7의 합은 28이므로 28은 완전수이다.
+
+A number n is called deficient if the sum of its proper divisors is less than n and it is called abundant if this sum exceeds n.
+
+진약수의 합이 자신보다 작으면 결핍수, 넘으면 충분수이라고 부른다.
+
+As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest number that can be written as the sum of two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot be reduced any further by analysis even though it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit.
+
+12는 가장 작은 충분수이다. 그러므로 24는 두 충분수의 합으로 계산되는 가장 작은 수이다. 수학적으로는 28123보다 큰 모든 정수는 두 충분수의 합으로 나타낼 수 있다. 
+
+Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
+
+두 개의 풍부한 수의 합으로 나타낼 수 없는 모든 양의 정수의 합을 구하십시오.
